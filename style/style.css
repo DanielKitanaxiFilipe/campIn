@@ -51,7 +51,7 @@ button{
   background: #ffc632 !important;
   height: 45px;
   width: 100%;
-  color: #191816;
+  color: #191816 !important;
 } button:hover{
   background: #ffdd87 !important;
 } input::placeholder{
