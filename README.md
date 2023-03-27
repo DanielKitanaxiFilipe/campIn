@@ -1,4 +1,4 @@
-### Página de Login em HTML5, CSS3 e Javascript
+### Página de Login em HTML5, CSS3 e Bootstrap
 #### _Este projeto é uma página de login desenvolvida em HTML5, CSS3 e Bootstrap <br>é um modelo de login minimalista, intuitivo, original e responsivo e de código aberto._
 <img src="./assets/Captura.png" alt="">
 
