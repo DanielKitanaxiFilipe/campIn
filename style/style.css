@@ -1,0 +1,105 @@
+@font-face{
+  font-family: CircularStdBook;
+  src: url(./../assets/fonts/CircularStdBook.ttf);
+}
+body{
+  font-family: CircularStdBook ;
+  background: #191816;
+  color: #a5acb7;
+}
+.w-100{
+  width: 100%;
+}.h-100{
+  min-height: 100vh;
+}
+.background-img{
+  background-image: url(./../assets/side-image-2x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.input-group {
+  height: 45px;
+  border: 2px solid #a5acb7;
+  background:#191816;
+  border-radius: 5px;
+  transition: 0.3s;
+}.input-group:hover{
+  transition: 0.3s;
+  border: 2px solid #ffd03b;
+}.input-group:hover > span{
+  transition: 0.3s;
+  color:#ffd03b;
+}.input-group > input {
+  background: none;
+  color: #a5acb7;
+  padding-left: 3px;
+  font-size: 14px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+} .input-group > span{
+  font-weight: 100;
+  font-size: 14px;
+  background: none;
+  transition: 0.3s;
+  border: none;
+  color: #a5acb7;
+}
+button{
+  background: #ffc632 !important;
+  height: 45px;
+  width: 100%;
+  color: #191816;
+} button:hover{
+  background: #ffdd87 !important;
+} input::placeholder{
+  color: #a5acb7 !important;
+}.a-link{
+  color: #ffc632;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.6s;
+}.a-link:hover{
+  color: #ffdd87;
+  transition: 0.6s;
+} .form-check{
+  font-size: 14px;
+}.div_regist{
+  font-size: 14px;
+  color: #ffc632;
+}h2{
+  color: #d0c8b3;
+}.div_img_text > img{
+  width: 30px; 
+  margin-top: -10px;
+  margin-right: 10px;
+}
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-top: -1px;
+}
+.form-check-input[type=checkbox]:indeterminate {
+  background-color: #ffc632;
+  border-color: #ffc632;
+}
+.form-check-input:checked {
+  background-color: #ffc632;
+  border-color: #ffc632;
+  box-shadow: none;
+  outline: none;
+}
+@media (max-width: 768px){
+  .background-img{
+    display: none;
+  }
+  .container{
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
