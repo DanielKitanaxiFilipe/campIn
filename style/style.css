@@ -32,13 +32,13 @@ body{
   transition: 0.3s;
   color:#ffd03b;
 }.input-group > input {
-  background: none;
+  background: none !important;
   color: #a5acb7;
   padding-left: 3px;
   font-size: 14px;
-  border: none;
-  box-shadow: none;
-  outline: none;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
 } .input-group > span{
   font-weight: 100;
   font-size: 14px;
