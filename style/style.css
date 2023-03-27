@@ -33,7 +33,7 @@ body{
   color:#ffd03b;
 }.input-group > input {
   background: none !important;
-  color: #a5acb7;
+  color: #a5acb7 !important;
   padding-left: 3px;
   font-size: 14px;
   border: none !important;
